@@ -1,0 +1,18 @@
+.navbar {
+  background-color: #00287B;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__logo {
+  width: 20vw;
+}
+.navbar__menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  color: lightblue;
+}
+.navbar__links {
+  padding: 2rem;
+}/*# sourceMappingURL=Nav.css.map */

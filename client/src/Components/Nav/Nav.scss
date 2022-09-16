@@ -1,0 +1,24 @@
+@use '../../styles/_variables' as *;
+
+.navbar{
+    background-color: $navy;
+    display: flex;
+    justify-content:space-between;
+
+
+    &__logo{
+        width:20vw;;
+    }
+
+    &__menu{
+     list-style-type: none;
+     display: flex;
+     justify-content: space-between;
+     align-content: center;
+     color: lightblue;
+    }
+
+    &__links{
+     padding:2rem;
+    }
+}
